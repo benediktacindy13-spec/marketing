@@ -1,0 +1,83 @@
+/* SIDEBAR UTAMA */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: #081436;
+    color: #fff;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* LOGO SECTION */
+.sidebar .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+/* LOGO FIX (INI PENTING) */
+.sidebar .logo-section img {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* COMPANY TEXT */
+.sidebar .company-info h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #d69f14;
+    line-height: 1.2;
+}
+
+.sidebar .company-info p {
+    margin: 0;
+    font-size: 11px;
+    color: #f3f4f6;
+}
+
+/* MENU */
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.1);
+    color: #d69f14;
+}
+
+.sidebar a.active {
+    background: #d69f14;
+    color: #081436;
+}
+
+/* LOGOUT */
+.logout-btn {
+    margin-top: auto;
+    background: none;
+    border: none;
+    color: #ef4444;
+    font-weight: 600;
+    padding: 12px 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    color: #dc2626;
+}

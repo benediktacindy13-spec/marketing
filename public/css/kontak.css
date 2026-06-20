@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.table-kontak {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.table-kontak thead {
+    background: #2563eb;
+    color: white;
+}
+
+.table-kontak th,
+.table-kontak td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-size: 14px;
+}
+
+.table-kontak tbody tr:hover {
+    background: #f1f5f9;
+}
+
+.btn-hapus {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-hapus:hover {
+    background: #dc2626;
+}

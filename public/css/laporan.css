@@ -1,0 +1,115 @@
+.main-layout{
+    display:flex;
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    min-height:95vh;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.laporan-content{
+    flex:1;
+    padding:25px;
+    overflow-y:auto;
+}
+
+.laporan-container{
+    padding: 30px;
+}
+
+body{
+    background:#eef2f7;
+    padding:20px;
+    font-family:Arial;
+}
+
+.laporan-container{
+    padding: 30px;
+}
+
+.card-custom{
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    background: white;
+}
+
+.card-custom:hover{
+    transform: translateY(-5px);
+}
+
+.icon-box{
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.wa{
+    background: #25D366;
+}
+
+.shopee{
+    background: #ff5722;
+}
+
+.tiktok{
+    background: black;
+}
+
+.card-title{
+    font-size: 15px;
+    color: #666;
+}
+
+.big-number{
+    font-size: 22px;
+}
+
+.percent-green{
+    color: #25D366;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.percent-orange{
+    color: #ff5722;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.percent-dark{
+    color: #222;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.chart-card{
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.chart-card{
+    min-height:350px;
+}
+
+.chart-card canvas{
+    max-height: 320px !important;
+}
+
+h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}

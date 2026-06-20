@@ -1,0 +1,29 @@
+body {
+    background: #f5f6fa;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTENT */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* CARD */
+.card-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* TEXT */
+h3 {
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
